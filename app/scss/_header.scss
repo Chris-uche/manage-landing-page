@@ -1,0 +1,174 @@
+@media only screen and (min-width:750px){
+
+
+
+
+
+    @import "variables";
+    @import 'helpers';
+    
+    header{
+        width: 100%;
+        background-image:url('/images/bg-tablet-pattern.svg');
+        background-position: (60vw -5vw);
+        background-size: 48%;
+        background-repeat: no-repeat;
+    
+        .container-wrapper{
+            //background-color: lightblue;
+            padding: 2.5625rem 6.6875rem;
+            min-height: 80px;
+        }
+        .nav-header{
+            flex-wrap: wrap;
+            //background-color: lightcyan;
+            align-content: center;
+            align-items: center;
+            width: 100%;
+            .hamburger-menu{
+                display: none;
+            }
+            
+    
+            .nav-logo{
+               
+                .logo{
+                width: 9.5rem;
+                align-self: center;
+                justify-content: center;
+                //margin-bottom: -0.74rem;
+                //background-color: rebeccapurple;
+                }
+            }
+            .nav-list-items{
+                display: flex;
+                //justify-content: space-between;
+                font-size: 0.98rem;
+                
+                a{
+                    text-decoration: none;
+                    text-align: center;
+                    font-weight: bold;
+                    color:$DARKBLUE;
+    
+                }
+                a:hover{
+                    color:$DarkGrayishBlue;
+    
+                }
+                li{
+                    list-style: none;
+                    justify-content: space-between;
+                    margin: 0.99rem;
+                    text-decoration: none;
+                
+                    
+    
+                }
+            }
+            .nav-button{
+                width:10rem;
+                height: 2.3rem;
+                border-radius: 2rem;
+                color:$VaryLightGray;
+                align-content: center;
+                text-align: center;
+                cursor: pointer;
+                outline: none;
+                border:none;
+                background-color: $BRIGHTRED;
+                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .3);
+    
+            }
+            .nav-button:hover{
+                cursor: pointer;
+                background-color: $VeryPaleRed;
+                color: black;
+            }
+        }
+    
+        .illustration{
+            //background-color: lightblue;
+            margin-top: 4.3rem;
+           // width: 100%;
+            max-width: 1200px;
+            display: flex;
+            min-height: fit-content;
+            height: 81vh;
+            justify-content: space-between;
+            //align-content: center;
+            position: relative;
+
+        
+           
+        
+            
+    
+           .product-description{
+               width: 40%;
+               padding-top: 60px;
+               justify-content: center;
+               align-content: center;
+               //text-align: center;
+               position: relative;
+    
+    
+               .product-text{
+                   font-size: 3.1rem;
+                   padding-top: 60px;
+                 
+               }
+               .product-texted{
+                    margin: 35px 0;
+                   line-height: 1.5;
+                   font-size: 1.4rem;
+               }
+            }
+    
+            .illustration-charts{
+                //width:%;
+                width: 50%;
+                //right: 0;
+                //margin-left: auto;
+                max-width: fit-content;
+    
+                
+    
+                
+                
+            }
+            .product-button{
+                width:10rem;
+                height: 2.3rem;
+                border-radius: 2rem;
+                color:$VaryLightGray;
+                align-content: center;
+                text-align: center;
+                cursor: pointer;
+                outline: none;
+                border:none;
+                background-color: $BRIGHTRED;
+                box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .3);
+    
+            }
+            .product-button:hover{
+                cursor: pointer;
+                background-color: $VeryPaleRed;
+                color: black;
+            }
+    
+    
+        }
+    
+    
+        
+        
+    }   
+
+
+    
+
+}
+
+
+

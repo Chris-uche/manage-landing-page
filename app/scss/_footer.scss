@@ -1,0 +1,110 @@
+@media only screen and (min-width:750px){
+
+
+    @import 'variables';
+    @import 'global';
+    .container{
+        //display: flex;
+        background-color:$DARKBLUE;
+        height: 55vh;
+        padding: 2.5625rem 6.6875rem;
+        color: white;
+       
+    
+        .flex-footer{
+            display: flex;
+            
+            //align-items: center;
+            justify-content: space-between;
+            .footer-logos{
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                color: white;
+                .footer-logo{
+                    filter: brightness(0) invert(1);
+    
+                }
+            }
+    
+            .footer-icons{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                margin-top: 4.0rem;
+    
+            }
+
+
+            .items-list{
+
+                display: flex;
+                justify-content: space-between;
+
+            }
+            
+            .list-items{
+                color: white;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+    
+                a{
+                    text-decoration: none;
+                    color: white;
+                    //list-style: none;
+                    padding: 15px;
+                    margin: 3rem;
+                    //text-transform: uppercase;
+                    font-size: 12px;
+                    //font-weight: 700;
+                    letter-spacing: 1px;
+                    transition: 0.2s;
+                }
+            }
+            .footer-button{
+                //background-color: lightblue;
+                .footer-btn{
+                    width:12rem;
+                    height: 2.3rem;
+                    border-radius: 20px;
+                    border: none;
+                    color: black;
+                }
+                .go-btn{
+                   
+                    text-decoration: none;
+                    color:white;
+                    margin-left: 12px;
+                    width: 3rem;
+    
+                    height: 2rem;
+                    background-color: $BRIGHTRED;
+                    border-radius: 12px;
+                    border: none;
+                    
+                    justify-content: center;
+                    text-align: center;
+                    
+                }
+            }
+    
+            
+        }
+        .copyright{
+            margin-top: 4rem;
+            display: flex;
+    
+        }
+        .attribution{
+            display: flex;
+            margin-top: 5rem;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+
+}
+

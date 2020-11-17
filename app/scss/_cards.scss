@@ -1,0 +1,196 @@
+@media only screen and (min-width:750px){
+
+
+
+    @import 'variables';
+    
+    /*
+    .cards{
+        //width: 100%;
+        //margin-top: 3rem;
+        padding: 2.5rem 4.6875rem;
+        //position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5rem;
+        align-items: center;
+         //min-height: 80px;
+        //background-color: lightblue;
+        
+        h1{
+            font-size: 2em;
+            color: $DARKBLUE;
+            font-weight: bold;
+            margin-top: 4rem;
+            display: flex;
+            
+            margin-bottom: 5rem;
+            justify-content: center;
+            text-align: center;
+        }
+        .testimonial_section{
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+    
+            .testimonial_single{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 1.5rem;
+                width: auto;
+                margin-right: 2rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+                margin-bottom: 2rem;
+                transition-duration: 0.25s;
+                background-color: $VaryLightGray;
+            }
+    
+            .testimonial_author{
+                text-align: center;
+                color: $VeryDarkBlue;
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+            .testimonial_avatar{
+                width: 7rem;
+                position: relative;
+                bottom: 2rem;
+                margin-bottom: -2rem;
+            }
+            .testimonials_text{
+                font-size: 14px;
+                color:$DarkGrayishBlue;
+            }
+    
+            
+        }
+        .btn-card{
+            width:10rem;
+            height: 2.3rem;
+            border-radius: 20px;
+            border: none;
+            background-color: $BRIGHTRED;
+            color: white;
+            box-shadow: 1px 5px 5px hsl(12, 66%, 69%);
+            margin-top: 1rem;
+        }
+        .dots {
+            display: none;
+        }
+    
+    } */
+
+
+    .cards{
+        padding-bottom: 2rem;
+        width: 100%;
+
+        h1{
+            font-size: 2em;
+            color: $DARKBLUE;
+            font-weight: bold;
+            margin-top: 4rem;
+            display: flex;
+            
+            margin-bottom: 5rem;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .testimonial_section{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            /*width: 100%;*/
+            position: unset;
+            overflow-x: scroll;
+            padding: 2rem 0 0;
+
+            .testimonial_single{
+
+                display: block;
+                background-color:$VaryLightGray;
+                width: 32%;
+                margin: 1rem;
+                text-align: center;
+                position: relative;
+                padding: 3rem 1rem 2rem;
+                .testimonial_avatar{
+                    width: 55px;
+                    position: absolute;
+                    top: -12%;
+                    left: 50%;
+                    transform: translateX(-50%);
+
+                }
+                .testimonial_author{
+                   padding-bottom: 1.2rem;
+
+                }
+
+                .testimonials_text{
+                    color: $DarkGrayishBlue;
+                    font-size: 0.95rem;
+                    
+                }
+
+
+
+
+            }
+            
+            
+        }
+        
+        .dots {
+            display: none;
+          }
+        
+          /* ***Next & previous buttons*** */
+          .prev,
+          .next {
+            display: none;
+        }
+    }
+    /*.btn-card{
+        width:10rem;
+
+        justify-content: center;
+        height: 2.3rem;
+        border-radius: 20px;
+        border: none;
+        background-color: $BRIGHTRED;
+        color: white;
+        box-shadow: 1px 5px 5px hsl(12, 66%, 69%);
+        margin-top: 1rem;
+    } */
+}
+
+
+@media only screen and (min-width:750px){
+    @import 'variables';
+
+    .single-button {
+        text-align: center;
+        width: 100%;
+        padding: 0 0 2rem;
+        .btn-card {
+        width:10rem;
+
+        justify-content: center;
+        height: 2.3rem;
+        border-radius: 20px;
+        border: none;
+        background-color: $BRIGHTRED;
+        color: white;
+        box-shadow: 1px 5px 5px hsl(12, 66%, 69%);
+        margin-top: 1rem;
+            
+        }
+    }
+
+
+}    

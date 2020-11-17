@@ -1,0 +1,43 @@
+@media only screen and (min-width:750px){
+
+
+    
+    @import 'variables';
+    
+    .features{
+        padding: 3.6625rem 6.6875rem;
+        background-color: $BRIGHTRED;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    
+    
+        .features_card{
+            text-align: center;
+            width: 40%;
+            .features_text{
+                color: white;
+                font-size: 2.2rem;
+            }
+        }
+        .features_button{
+            display: flex;
+            justify-content: center;
+            .features_btn{   
+            color: $BRIGHTRED;
+            width:10rem;
+            height: 2.3rem;
+            border-radius: 20px;
+            border: none;
+            //background-color: $BRIGHTRED;
+            color:$BRIGHTRED;
+            box-shadow: 1px 5px 5px hsl(12, 66%, 69%);
+            margin-top: 1rem;
+                
+    
+            }
+        }
+    
+    
+    }
+}
