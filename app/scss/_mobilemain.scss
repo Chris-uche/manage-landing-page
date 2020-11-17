@@ -1,0 +1,176 @@
+
+@media only screen and (max-width:375px){
+ @import "variables";
+
+   
+
+    .cards{
+        padding-bottom: 2rem;
+        width: 100%;
+        .cards-intro{
+            font-size: 2em;
+            color: $DARKBLUE;
+            font-weight: bold;
+            margin-top: 4rem;
+            display: flex;
+            margin-bottom: 5rem;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        
+        .testimonial_section{
+            width: 100%;
+            position: relative;
+
+            .testimonial_single{
+                display: block;
+                background-color:$VaryLightGray;
+                width: 90%;
+                margin: 1rem auto 1rem;
+                text-align: center;
+                position: relative;
+                padding: 3rem 1rem 2rem;
+
+                .testimonial_avatar{
+                    width: 55px;
+                    position: absolute;
+                    top: -12%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                .testimonial_author{
+                    padding-bottom: 1.2rem;
+                }
+                .testimonials_text{
+                    color:$DarkGrayishBlue;
+                    font-size: 0.95rem;
+                }
+            }
+
+            .prev,
+            .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 10px;
+            color: $BRIGHTRED;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            }
+    
+            /* ***Position the "next button" to the right*** */
+            .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+            }
+    
+            .prev:hover,
+            .next:hover {
+            background-color: var(--very-pale-red);
+            }
+            
+            
+        }
+        .dots {
+            text-align: center;
+            .dot {
+                cursor: pointer;
+                height: 12px;
+                width: 12px;
+                margin: 0 2px;
+                background-color: transparent;
+                border: 1px solid $BRIGHTRED;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+
+        }
+        .active,
+        .dot:hover {
+        background-color: $BRIGHTRED;
+        }
+
+
+
+    }
+
+
+    .single-button {
+        text-align: center;
+        width: 100%;
+        padding: 0 0 2rem;
+        .btn-card {
+        width:10rem;
+
+        justify-content: center;
+        height: 2.3rem;
+        border-radius: 20px;
+        border: none;
+        background-color: $BRIGHTRED;
+        color: white;
+        box-shadow: 1px 5px 5px hsl(12, 66%, 69%);
+        margin-top: 1rem;
+            
+        }
+    }
+      
+   
+
+   
+
+ 
+    .features{
+        display: flex;
+        flex-direction: column;
+        background-color: $BRIGHTRED;
+        align-items: center;
+        //width: 100%;
+        //height: 100vh;
+        padding: 6rem;
+        margin-top: 1rem;
+        
+    
+        .features_card{
+            text-align: center;
+            justify-content: center;
+    
+            .features_text{
+                font-size: 1.5rem;
+                color: white;
+                font-weight: bolder;
+            }
+    
+        }
+        .features_button{
+            align-content: center;
+            //width: 100%;
+            margin-top:3rem;
+    
+            .features_btn{
+                width:9rem;
+                height: 2.9rem;
+                border-radius: 20px;
+                border: none;
+                font-weight: bold;
+                font-size: 1em;
+                background-color: $VaryLightGray;
+                color:$BRIGHTRED;
+               // box-shadow: 1px 5px 5px hsl(12, 66%, 69%);
+                margin-top: 1rem;
+    
+            }
+        }
+    }
+}
+
+
+
+
